@@ -1,0 +1,27 @@
+{
+  "name": "app-mean-maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegusweb/app-mean-maps.git"
+  },
+  "author": "Diego Rueda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegusweb/app-mean-maps/issues"
+  },
+  "dependencies" : {
+        "express"    : "~4.7.2",
+        "mongoose"   : "~4.1.0",
+        "morgan"     : "~1.2.2",
+        "body-parser": "~1.5.2",
+        "jsonwebtoken": "^5.0.2",
+        "method-override": "~2.1.2"
+    },
+  "homepage": "https://github.com/diegusweb/app-mean-maps#readme"
+}
